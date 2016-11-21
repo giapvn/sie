@@ -2,9 +2,12 @@
 <html lang="en">
 <style type="text/css">
 #body-top {
-    margin-top: 50px;
+    margin-top: 200px;
 }
-
+#header {
+    position: fixed!important;
+    z-index: 1000
+}
 #nar-right {
     background-color: #123456;
     height: 400px;
@@ -66,8 +69,8 @@
 </head>
 
 <body background="/publics/images/background.jpg" class="rows">
-    <header class="header col-md-12">
-        <nav class="navbar-static-stop top-nav top-nav_theme_elegant col-md-12 " >
+    <header class="header col-md-12" id ="header">
+        <nav class="navbar navbar-static-stop top-nav top-nav_theme_elegant col-md-12 " >
             <div id="nav-belt" class="col-md-12">
                 <div class="col-md-2">
                     <div class="nav-logo">
