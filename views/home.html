@@ -6,7 +6,8 @@
 }
 #header {
     position: fixed!important;
-    z-index: 1000
+    z-index: 10000;
+    background-color: #228b22;
 }
 #nar-right {
     background-color: #123456;
@@ -68,9 +69,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body background="/publics/images/background.jpg" class="rows">
+<body>
     <header class="header col-md-12" id ="header">
-        <nav class="navbar navbar-static-stop top-nav top-nav_theme_elegant col-md-12 " >
+        <nav class="navbar navbar-static-stop top-nav top-nav_theme_elegant col-md-12" >
             <div id="nav-belt" class="col-md-12">
                 <div class="col-md-2">
                     <div class="nav-logo">
@@ -114,16 +115,17 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </div>
                     <div class="col-md-6">
-                        <button style="magin-right:-100px" type="button" class="btn-signin">Sign in</button>
+                        <button style="magin-right:-100px" type="button" class="btn-signin">Đăng nhập</button>
                     </div>
                 </div>
             </div>
-            <div class="nav-bottom">
-                <div class="col-md-10">
+            <div class="nav-bottom col-md-12">
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
                     <ul class="nav nav-tabs">
                         <li role="presentation" class="active"><a href="#">Trang chủ</a></li>
                         <li role="presentation"><a href="#">Giới thiệu</a></li>
@@ -133,7 +135,7 @@
                         <li role="presentation"><a href="#">Hỗ trợ</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-4"></div>
             </div>
         </nav>
     </header>
@@ -323,4 +325,5 @@ $('.carousel-product .item').each(function() {
 });
 </script>
 
+    
 </html>

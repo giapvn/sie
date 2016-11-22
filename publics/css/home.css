@@ -29,15 +29,15 @@ body .header #nav-belt .btn-signin{
 	text-align: center;
 	background-color: #6633ff;
 	color: white;
-	width: 80px;
+	width: 100px;
 	height: 30px;
 
 	position: relative;
 	top: 25px;
-	right: -300px;
+	right: -100px;
 }
 
-body .header #nav-belt .col-md-2 i{
+body .header #nav-belt .col-md-4 i{
 	font-size: 30px;
 	width: 50px;
 	position: relative;
